@@ -188,6 +188,9 @@ def call_watsonx(user_input: str):
 def root():
     return {"status": "Waqas Portfolio Chatbot is running"}
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 @app.post("/chat")
 def chat(request: RequestBody):
