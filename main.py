@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = "iNymrmiIVc3aLkeukAs-ey0LBL5EjEY6zXB3Vk3vPVtJ"
+API_KEY = "k2fEMaulrRf9MHCGhgZWG95DYKNCGvmgK9jBWJ8Moj1-"
 URL = "https://eu-de.ml.cloud.ibm.com/ml/v1/deployments/6413e14d-ad26-4b92-8756-926b94ffcbd8/text/chat?version=2021-05-01"
 
 SYSTEM_PROMPT = """
